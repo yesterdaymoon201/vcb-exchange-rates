@@ -1,0 +1,167 @@
+{
+  "Count": 20,
+  "Date": "2020-07-15T00:00:00",
+  "UpdatedDate": "2020-07-15T23:00:00+07:00",
+  "Data": [
+    {
+      "currencyName": "US DOLLAR",
+      "currencyCode": "USD",
+      "cash": "23060.00",
+      "transfer": "23090.00",
+      "sell": "23270.00",
+      "icon": "/-/media/Default-Website/Default-Images/Icons/Flags/im_flag_usa.svg?h=160&w=540&ts=20230610195953&hash=F8F923C3027522D4DE48C7404ACC1A2E"
+    },
+    {
+      "currencyName": "EURO",
+      "currencyCode": "EUR",
+      "cash": "25786.79",
+      "transfer": "26047.26",
+      "sell": "27101.95",
+      "icon": "/-/media/Default-Website/Default-Images/Icons/Flags/im_flag_eur.svg?h=160&w=540&ts=20230610195955&hash=E77AB96F114C593F7AEC806FC44BD291"
+    },
+    {
+      "currencyName": "POUND STERLING",
+      "currencyCode": "GBP",
+      "cash": "28409.98",
+      "transfer": "28696.95",
+      "sell": "29596.49",
+      "icon": "/-/media/Default-Website/Default-Images/Icons/Flags/im_flag_gbp.svg?h=160&w=540&ts=20230610195950&hash=738734F1E336D1DBBE821DB8F368B6FB"
+    },
+    {
+      "currencyName": "YEN",
+      "currencyCode": "JPY",
+      "cash": "208.88",
+      "transfer": "210.99",
+      "sell": "218.87",
+      "icon": "/-/media/Default-Website/Default-Images/Icons/Flags/im_flag_jpy.svg?h=160&w=540&ts=20230610195953&hash=1CFA5E6BEF3AFAD2A4576279515C8B8E"
+    },
+    {
+      "currencyName": "AUSTRALIAN DOLLAR",
+      "currencyCode": "AUD",
+      "cash": "15797.89",
+      "transfer": "15957.46",
+      "sell": "16457.66",
+      "icon": "/-/media/Default-Website/Default-Images/Icons/Flags/im_flag_aud.svg?h=160&w=540&ts=20230610195950&hash=E3963CD69C452F217FB5E5876E5AE510"
+    },
+    {
+      "currencyName": "SINGAPORE DOLLAR",
+      "currencyCode": "SGD",
+      "cash": "16252.65",
+      "transfer": "16416.82",
+      "sell": "16931.43",
+      "icon": "/-/media/Default-Website/Default-Images/Icons/Flags/im_flag_sgd.svg?h=160&w=540&ts=20230709003433&hash=F1C5D1BCBEB75F6F787074575FCB5A10"
+    },
+    {
+      "currencyName": "THAILAND BAHT",
+      "currencyCode": "THB",
+      "cash": "650.50",
+      "transfer": "722.78",
+      "sell": "749.92",
+      "icon": "/-/media/Default-Website/Default-Images/Icons/Flags/im_flag_thb.svg?h=160&w=540&ts=20230610195952&hash=4229EE6CDC7AE540FCDB342520DF54BC"
+    },
+    {
+      "currencyName": "CANADIAN DOLLAR",
+      "currencyCode": "CAD",
+      "cash": "16617.14",
+      "transfer": "16784.99",
+      "sell": "17311.14",
+      "icon": "/-/media/Default-Website/Default-Images/Icons/Flags/im_flag_cad.svg?h=160&w=540&ts=20230610195951&hash=44758066FCED9B029776D7358FBEAD8B"
+    },
+    {
+      "currencyName": "SWISS FRANC",
+      "currencyCode": "CHF",
+      "cash": "24046.93",
+      "transfer": "24289.83",
+      "sell": "25051.23",
+      "icon": "/-/media/Default-Website/Default-Images/Icons/Flags/im_flag_chf.svg?h=160&w=540&ts=20230610195952&hash=FD1D7ADD72F12608EA5D2F02A3DD5F3D"
+    },
+    {
+      "currencyName": "HONGKONG DOLLAR",
+      "currencyCode": "HKD",
+      "cash": "2915.70",
+      "transfer": "2945.15",
+      "sell": "3037.47",
+      "icon": "/-/media/Default-Website/Default-Images/Icons/Flags/im_flag_hkd.svg?h=160&w=540&ts=20230610195951&hash=C1BCBC9EED8E34F10E86F28292CC4DC6"
+    },
+    {
+      "currencyName": "YUAN RENMINBI",
+      "currencyCode": "CNY",
+      "cash": "3241.68",
+      "transfer": "3274.42",
+      "sell": "3377.57",
+      "icon": "/-/media/Default-Website/Default-Images/Icons/Flags/im_flag_cny.svg?h=33&w=48&ts=20260128153350&hash=86F34735C929A59E0494E2D69A712AC1"
+    },
+    {
+      "currencyName": "DANISH KRONE",
+      "currencyCode": "DKK",
+      "cash": "0.00",
+      "transfer": "3489.61",
+      "sell": "3620.67",
+      "icon": "/-/media/Default-Website/Default-Images/Icons/Flags/im_flag_dkk.svg?h=33&w=48&ts=20230610195954&hash=29FEC240C9B18E8DB3FDD1D9FB06C3F1"
+    },
+    {
+      "currencyName": "INDIAN RUPEE",
+      "currencyCode": "INR",
+      "cash": "0.00",
+      "transfer": "306.77",
+      "sell": "318.81",
+      "icon": "/-/media/Default-Website/Default-Images/Icons/Flags/im_flag_inr.svg?h=33&w=48&ts=20230610195952&hash=0DDDF0A33F1136D44931C9B8B921683E"
+    },
+    {
+      "currencyName": "KOREAN WON",
+      "currencyCode": "KRW",
+      "cash": "16.70",
+      "transfer": "18.56",
+      "sell": "20.33",
+      "icon": "/-/media/Default-Website/Default-Images/Icons/Flags/im_flag_krw.svg?h=33&w=48&ts=20230709003433&hash=E14E3980498122FE50A6B7CC80A83E3A"
+    },
+    {
+      "currencyName": "KUWAITI DINAR",
+      "currencyCode": "KWD",
+      "cash": "0.00",
+      "transfer": "75125.90",
+      "sell": "78073.71",
+      "icon": "/-/media/Default-Website/Default-Images/Icons/Flags/im_flag_kwd.svg?h=33&w=48&ts=20230610195949&hash=EDDE204A3F8CE87E0DF2B8609892EDA8"
+    },
+    {
+      "currencyName": "MALAYSIAN RINGGIT",
+      "currencyCode": "MYR",
+      "cash": "0.00",
+      "transfer": "5381.33",
+      "sell": "5494.78",
+      "icon": "/-/media/Default-Website/Default-Images/Icons/Flags/im_flag_myr.svg?h=33&w=48&ts=20230610195950&hash=1261923BB8AFC42265898F2C704ABBF3"
+    },
+    {
+      "currencyName": "NORWEGIAN KRONER",
+      "currencyCode": "NOK",
+      "cash": "0.00",
+      "transfer": "2425.62",
+      "sell": "2526.80",
+      "icon": "/-/media/Default-Website/Default-Images/Icons/Flags/im_flag_nok.svg?h=33&w=48&ts=20230610195951&hash=6C93A30F69B39B822266989CCE050685"
+    },
+    {
+      "currencyName": "RUSSIAN RUBLE",
+      "currencyCode": "RUB",
+      "cash": "0.00",
+      "transfer": "326.70",
+      "sell": "364.04",
+      "icon": "/-/media/Default-Website/Default-Images/Icons/Flags/im_flag_rub.svg?h=33&w=48&ts=20230709003433&hash=28CD708E031DC6CFDD54F5F0462B746E"
+    },
+    {
+      "currencyName": "SAUDI RIAL",
+      "currencyCode": "SAR",
+      "cash": "0.00",
+      "transfer": "6165.35",
+      "sell": "6407.26",
+      "icon": "/-/media/Default-Website/Default-Images/Icons/Flags/im_flag_sar.svg?h=33&w=48&ts=20230610195954&hash=B527E5E96B54FD5B513C8659C3B56A53"
+    },
+    {
+      "currencyName": "SWEDISH KRONA",
+      "currencyCode": "SEK",
+      "cash": "0.00",
+      "transfer": "2501.53",
+      "sell": "2605.89",
+      "icon": "/-/media/Default-Website/Default-Images/Icons/Flags/im_flag_sek.svg?h=33&w=48&ts=20230610195949&hash=12ADB15CE04490C8F55E48DAB353ED8C"
+    }
+  ]
+}
