@@ -1,8 +1,8 @@
 {
-  "next_date": "2020-03-30",
+  "next_date": "2020-03-31",
   "failures": 0,
-  "last_processed_date": "2020-03-29",
+  "last_processed_date": "2020-03-30",
   "last_status": "RATES",
-  "last_updated_at": "2026-11-13T16:20:52.856Z",
-  "last_success_date": "2020-03-29"
+  "last_updated_at": "2026-11-13T16:24:55.328Z",
+  "last_success_date": "2020-03-30"
 }
