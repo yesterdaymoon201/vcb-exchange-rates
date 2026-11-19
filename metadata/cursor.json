@@ -1,8 +1,8 @@
 {
-  "next_date": "2026-01-26",
+  "next_date": "2026-01-27",
   "failures": 0,
-  "last_processed_date": "2026-01-25",
+  "last_processed_date": "2026-01-26",
   "last_status": "RATES",
-  "last_updated_at": "2026-11-19T18:40:52.892Z",
-  "last_success_date": "2026-01-25"
+  "last_updated_at": "2026-11-19T18:44:52.738Z",
+  "last_success_date": "2026-01-26"
 }
