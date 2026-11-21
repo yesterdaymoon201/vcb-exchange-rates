@@ -1,0 +1,46 @@
+name: Thu thập tỷ giá Vietcombank
+
+on:
+  schedule:
+    # Giờ Việt Nam (UTC+7): 09:05, 10:05, 23:05 hằng ngày.
+    - cron: '5 2,3,16 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vcb-source-collector-main
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Tải repository nguồn
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 1
+      - name: Thiết lập Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Kiểm tra chương trình thu thập
+        run: python -m unittest discover -s tests -v
+      - name: Lấy tỷ giá ngày hiện tại và xử lý bù ngày lịch sử (nếu có)
+        run: python scripts/sync_vcb.py --root .
+      - name: Chỉ commit khi dữ liệu hoặc con trỏ thực sự thay đổi
+        shell: bash
+        run: |
+          git add -A -- raw metadata/cursor.json metadata/no-data
+          if git diff --cached --quiet; then
+            echo 'Không có dữ liệu thay đổi; không tạo commit.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'data: collect verified Vietcombank exchange rates'
+          git pull --rebase origin main
+          git push origin HEAD:main
