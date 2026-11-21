@@ -5,6 +5,12 @@ on:
     # Giờ Việt Nam (UTC+7): 09:05, 10:05, 23:05 hằng ngày.
     - cron: '5 2,3,16 * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/collect-vcb.yml'
+      - 'scripts/sync_vcb.py'
+      - 'tests/test_sync_vcb.py'
 
 permissions:
   contents: write
